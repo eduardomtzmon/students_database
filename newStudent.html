@@ -22,19 +22,21 @@
             </nav>
           </div>
     </div>
-    <div  class="studentTable">
-        <h2>Alumnos registrados:</h2>
-        <table id="studentsTable">
-            <tr>
-              <th>Nombre</th>
-              <th>Apellido</th>
-              <th>Edad</th>
-              <th>Materias</th>
-              <th>Calificaciones</th>
-            </tr>
-          </table>
+    <div id="content" class="content">
+        <div class="vertical-center">
+            <h2>Crear alumno:</h2>
+            <form>
+                <label for="fname">Nombre:</label><br>
+                <input type="text" id="nameInput" name="fname"><br><br>
+                <label for="lname">Apellido:</label><br>
+                <input type="text" id="lnameInput" name="lname"><br><br>
+                <label for="lname">Edad:</label><br>
+                <input type="text" id="ageInput" name="lname"><br><br>
+            </form>
+            <button id="createStudentBtn" class="button createStudentBtn">Crear Alumno</button>
+        </div>
     </div>
 
-<script src="/src/main.js"></script>
+<script src="/src/newStudent.js"></script>
 </body>
 </html>
