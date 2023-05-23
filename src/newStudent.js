@@ -36,7 +36,9 @@ function createStudent() {
         alert("Por favor llena los datos")
     }
     
-    
+    alert('Cambios guardados')
+    function Redirect(){location.href = "index.html"};
+    Redirect()
 
 }
 

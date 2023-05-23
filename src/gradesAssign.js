@@ -110,4 +110,7 @@ const grade = document.getElementById("gradeInput").value
   console.log('Comenzando a guardar cambios en db');
   localStorage.setItem("students", JSON.stringify(allStudents));
   console.log('Cambios guardados');
+  alert('Cambios guardados')
+  function Redirect(){location.href = "index.html"};
+  Redirect()
 });
