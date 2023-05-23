@@ -24,19 +24,29 @@
     </div>
     <div id="content" class="content">
         <div class="vertical-center">
-            <h2>Asignación de materias</h2>
+            <h2>Calificar Alumnos</h2>
             <div class="dropdown">
                 <button id="nameDropdown" onclick="deployNames()" class="dropbtn">Seleccionar Alumno</button>
-                <div id="myDropdown" class="dropdown-content"></div>
+                <div id="myDropdown" class="dropdown-content">
+
+                </div>
             </div><br>
+
+            <div class="dropdown">
+                <button id="courseDropdown" onclick="deployCourses()" class="dropbtn">Seleccionar Materia</button>
+                <div id="myCourseDropdown" class="dropdown-content">
+
+                </div>
+            </div><br>
+
             <form>
-                <label for="lname">Materia:</label><br>
-                <input type="text" id="courseInput" name="courseInput"><br><br>
+                <label for="lname">Calificacion:</label><br>
+                <input type="text" id="gradeInput" name="gradeInput"><br><br>
             </form>
-            <button id="assignCourseBtn" class="button assignCourseBtn">Asignar Materia</button>
+            <button id="assignGradeBtn" class="button assignGradeBtn">Calificar</button>
         </div>
     </div>
 
-<script src="/src/coursesAssign.js"></script>
+<script src="/src/gradesAssign.js"></script>
 </body>
 </html>
